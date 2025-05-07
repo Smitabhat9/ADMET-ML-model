@@ -1,6 +1,8 @@
 ADMET-Based Machine Learning Model for Pancreatic Cancer Drug Discovery
+
+
 Overview
-This repository presents a machine learning model designed to analyze ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties derived from molecular docking results of biomarkers and corresponding drugs. The workflow integrates SWISSADME predictions to enhance drug screening for pancreatic cancer.
+This repository presents a machine learning model designed to analyze ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties derived from molecular docking results of biomarkers and corresponding drugs. The workflow integrates SWISSADME predictions to enhance drug screening for pancreatic cancer.Machine Learning modeling on molecular datasets to predict aqueous solubility (MLOG P), an important ADMET property.
 
 Key Features
 
