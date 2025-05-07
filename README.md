@@ -1,17 +1,25 @@
-ADMET-Based Machine Learning Model for Pancreatic Cancer Drug Discovery
+**ADMET-Based Machine Learning Models for Pancreatic Cancer Drug Discovery**
 
+**Overview**
+This repository houses two complementary machine learning approaches aimed at predicting drug-likeness and key ADMET properties for pancreatic cancer drug screening:
 
-Overview
-This repository presents a machine learning model designed to analyze ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties derived from molecular docking results of biomarkers and corresponding drugs. The workflow integrates SWISSADME predictions to enhance drug screening for pancreatic cancer.Machine Learning modeling on molecular datasets to predict aqueous solubility (MLOG P), an important ADMET property.
+ADMET Model: Utilizes molecular docking results along with SWISSADME predictions to evaluate drug candidates based on classical ADMET (Absorption, Distribution, Metabolism, Excretion, and Toxicity) properties.
 
-Key Features
+ADMET + PaDDLE Model: Extends the baseline ADMET model by incorporating PaDDLE descriptors, offering enhanced feature representation and improved predictive insight.
 
-Data Processing: Extracts molecular docking results and ADMET properties.
+Both models leverage state-of-the-art techniques and are designed to facilitate a comprehensive analysis, from data preprocessing and exploratory analysis to model training and evaluation.
+**Key Components**
 
-Feature Engineering: Utilizes SWISSADME for additional drug-likeness evaluation.
+Data Processing: Extraction of molecular docking outputs and biomarker data.
+Integration of SWISSADME predictions as additional drug-likeness indicators.
 
-Exploratory Data Analysis (EDA): Visualizes molecular properties and correlations.
+**Feature Engineering:**
 
-Model Training: Implements various ML algorithms for predictive modeling.
+ADMET Model: Focuses on traditional ADMET properties.
 
-Evaluation Metrics: Assesses model performance using accuracy, R², and MSE.
+ADMET + PaDDLE Model: Augments the feature space with PaDDLE descriptors for improved accuracy.
+
+**Exploratory Data Analysis (EDA)**: Visualizes property distributions, correlational patterns, and overall molecular characteristics.
+
+Model Training & Evaluation: Compares multiple machine learning algorithms using metrics such as accuracy, R², and MSE to determine the best-performing strategy for each model.
+
